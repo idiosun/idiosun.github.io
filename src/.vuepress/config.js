@@ -4,7 +4,7 @@ module.exports = config({
   title: "Theme Demo",
   description: "A demo for vuepress-theme-hope",
 
-  base: "/vuepress-theme-hope-template/",
+  // base: "/vuepress-theme-hope-template/",
 
   dest: "./dist",
 
@@ -37,7 +37,7 @@ module.exports = config({
 
   themeConfig: {
     logo: "/logo.svg",
-    hostname: "https://vuepress-theme-demo.mrhope.site/",
+    hostname: "https://idiosun.github.io",
 
     nav: [
       { text: "Blog Home", link: "/", icon: "home" },
@@ -100,7 +100,8 @@ module.exports = config({
       },
     },
 
-    author: "Mr.Hope",
+    author: "idiosun",
+    baseLang: "zh-CN",
 
     blog: {
       intro: "/intro/",
@@ -204,7 +205,7 @@ module.exports = config({
       },
     },
 
-    repo: "https://github.com/mister-hope/vuepress-theme-hope",
+    repo: "https://github.com/idiosun/idiosun.github.io.git",
     repoLabel: "Github",
   },
 });
